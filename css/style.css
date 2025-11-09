@@ -1,0 +1,380 @@
+/* Reset Básico */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* Variáveis de Cores */
+:root {
+    --vermelho-principal: #D91A2A; /* Vermelho vibrante (estilo Inter) */
+    --branco: #ffffff;
+    --cinza-fundo: #f4f4f4;
+    --cinza-texto: #333333;
+    --preto: #111111;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--cinza-fundo);
+    color: var(--cinza-texto);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Cabeçalho */
+.main-header {
+    background-color: var(--preto);
+    color: var(--branco);
+    padding: 20px 0;
+    border-bottom: 4px solid var(--vermelho-principal);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px; /* <--- ADICIONE OU AJUSTE ESTA LINHA */
+}
+
+.logo span { color: var(--vermelho-principal); }
+
+.main-header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.main-header nav ul li a {
+    color: var(--branco);
+    text-decoration: none;
+    padding: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.main-header nav ul li a:hover { color: var(--vermelho-principal); }
+
+.btn-login {
+    font-size: 0.8rem;
+    color: #555;
+    text-decoration: none;
+}
+
+/* Hero Section (Destaque) */
+.hero {
+    background: linear-gradient(to right, var(--vermelho-principal), #8a0f19);
+    color: var(--branco);
+    padding: 60px 0;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero h1 { font-size: 2.5rem; margin-bottom: 10px; }
+
+/* Grid de Notícias */
+.section-title {
+    border-left: 5px solid var(--vermelho-principal);
+    padding-left: 15px;
+    margin-bottom: 30px;
+    color: var(--preto);
+    text-transform: uppercase;
+}
+
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+/* Card da Notícia (O JS vai criar isso, mas estilizamos aqui) */
+.news-card {
+    background: var(--branco);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.news-card:hover { transform: translateY(-5px); }
+
+.news-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.news-content { padding: 20px; }
+
+.news-tag {
+    background-color: var(--preto);
+    color: var(--branco);
+    padding: 4px 8px;
+    font-size: 0.7rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.news-title {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: var(--preto);
+}
+
+.news-excerpt { font-size: 0.9rem; color: #666; }
+
+.read-more {
+    display: inline-block;
+    margin-top: 15px;
+    color: var(--vermelho-principal);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Rodapé */
+footer {
+    background-color: var(--preto);
+    color: #777;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: auto;
+}
+
+/* --- NOVOS ESTILOS DO PORTAL --- */
+
+/* Manchete Principal (Destaque) */
+.main-headline {
+    background: var(--branco);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.main-headline img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-bottom: 4px solid var(--vermelho-principal);
+}
+
+.main-headline .news-content {
+    padding: 30px;
+}
+
+.main-headline .news-tag {
+    background-color: var(--vermelho-principal); /* Destaque na cor principal */
+    font-size: 0.8rem;
+}
+
+.main-headline .news-title {
+    font-size: 2.2rem;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+.main-headline .news-excerpt {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 15px 0;
+}
+
+/* Estrutura de Layout (Main + Sidebar) */
+.content-wrapper {
+    display: flex;
+    gap: 40px;
+}
+
+.main-feed {
+    flex: 2; /* Ocupa 2/3 do espaço */
+}
+
+.sidebar {
+    flex: 1; /* Ocupa 1/3 do espaço */
+    position: sticky; /* Faz a sidebar "grudar" ao rolar */
+    top: 20px;
+    align-self: flex-start; /* Alinha no topo */
+}
+
+/* Grid de notícias principal (diferente do antigo) */
+.news-grid-main {
+    display: grid;
+    grid-template-columns: 1fr; /* Agora é uma coluna única de posts */
+    gap: 30px;
+}
+
+/* Ajuste nos cards dentro do feed principal para ficarem horizontais */
+.main-feed .news-card {
+    display: flex;
+    align-items: center;
+}
+.main-feed .news-card img {
+    width: 250px;
+    height: 160px;
+    object-fit: cover;
+}
+.main-feed .news-card .news-content {
+    flex: 1;
+}
+
+
+/* Widgets da Sidebar */
+.widget {
+    background: var(--branco);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    margin-bottom: 30px;
+}
+
+.widget-title {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: var(--preto);
+    border-bottom: 2px solid var(--cinza-fundo);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Cards da sidebar (voltam a ser verticais) */
+.sidebar .news-card {
+    flex-direction: column;
+}
+.sidebar .news-card img {
+    width: 100%;
+    height: 160px;
+}
+
+/* Placeholder de Publicidade */
+.ad-placeholder {
+    width: 100%;
+    height: 250px;
+    background: var(--cinza-fundo);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-style: italic;
+    color: #888;
+}
+
+
+/* Estilo para Banners de Publicidade */
+.advertising-banner {
+    margin-bottom: 30px;
+    text-align: center; /* Centraliza o banner */
+}
+
+.advertising-banner img {
+    max-width: 100%; /* Garante que não ultrapasse a largura da sidebar */
+    height: auto;    /* Mantém a proporção */
+    border-radius: 8px;
+    display: block;  /* Remove espaços extras abaixo da imagem */
+    margin: 0 auto;
+}
+
+/* Banner de Publicidade Horizontal (no meio do feed) */
+.widget-ad-horizontal {
+    width: 100%;
+    min-height: 280px; /* Altura padrão para o "Retângulo Médio" do Google Ad (336x280) */
+    background: var(--cinza-fundo); /* Fundo enquanto o anúncio carrega */
+    margin: 30px 0; /* Espaçamento vertical para separar dos cards */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Garante que o anúncio não "vaze" */
+}
+
+/* Esconde o título do widget, mas mantém por acessibilidade */
+.widget-title-hidden {
+    display: none;
+}
+
+/* Garante que o segundo grid de notícias tenha um espaçamento superior */
+#lista-noticias-p2 {
+    margin-top: 30px;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+/* --- ESTILOS DA PÁGINA DA NOTÍCIA (noticia.html) --- */
+
+.logo-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.post-completo {
+    background: var(--branco);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-bottom: 40px; /* Adiciona espaço antes do rodapé */
+}
+
+.post-completo .news-tag {
+    background-color: var(--vermelho-principal);
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.post-completo h1 {
+    font-size: 2.2rem;
+    line-height: 1.2;
+    color: var(--preto);
+    margin-bottom: 10px;
+}
+
+.post-meta {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 25px;
+    border-bottom: 1px solid var(--cinza-fundo);
+    padding-bottom: 20px;
+}
+
+#post-media-container {
+    margin-bottom: 30px;
+}
+
+#post-media-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Deixa o Iframe do vídeo responsivo */
+#post-media-container iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9; /* Proporção 16:9 */
+    border-radius: 8px;
+    border: none;
+}
+
+.post-body {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--cinza-texto);
+}
+
+.post-body p {
+    margin-bottom: 20px;
+}
+
+.post-body h2, .post-body h3 {
+    color: var(--preto);
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
