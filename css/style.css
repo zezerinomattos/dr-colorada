@@ -162,7 +162,8 @@ footer {
 .main-headline img {
     width: 100%;
     height: 450px;
-    object-fit: cover;
+    object-fit: cover;        /* <-- ADICIONE ESTA LINHA */
+    object-position: center;  /* <-- ADICIONE ESTA LINHA */
     border-bottom: 4px solid var(--vermelho-principal);
 }
 
@@ -216,11 +217,14 @@ footer {
     display: flex;
     align-items: center;
 }
+
 .main-feed .news-card img {
     width: 250px;
     height: 160px;
-    object-fit: cover;
+    object-fit: cover;       /* <-- ADICIONE ESTA LINHA */
+    object-position: center; /* <-- ADICIONE ESTA LINHA */
 }
+
 .main-feed .news-card .news-content {
     flex: 1;
 }
@@ -248,9 +252,12 @@ footer {
 .sidebar .news-card {
     flex-direction: column;
 }
+
 .sidebar .news-card img {
     width: 100%;
     height: 160px;
+    object-fit: cover;       /* <-- ADICIONE ESTA LINHA */
+    object-position: center; /* <-- ADICIONE ESTA LINHA */
 }
 
 /* Placeholder de Publicidade */
@@ -377,4 +384,31 @@ footer {
     color: var(--preto);
     margin-top: 30px;
     margin-bottom: 15px;
+}
+
+/* --- ESTILOS DO CARROSSEL DE PARCEIROS --- */
+.swiper-parceiros {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    overflow: hidden; /* Garante que as imagens fiquem dentro */
+}
+
+.swiper-parceiros .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-parceiros .swiper-slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Estilo das Setas (Desktop) */
+.swiper-parceiros .swiper-button-next,
+.swiper-parceiros .swiper-button-prev {
+    color: var(--vermelho-principal);
+    --swiper-navigation-size: 30px; /* Tamanho das setas */
 }

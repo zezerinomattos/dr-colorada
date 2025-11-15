@@ -1,0 +1,161 @@
+/*
+ * =========================================
+ * RESPONSIVE.CSS (DR COLORADA) - VERSÃO DEFINITIVA
+ * =========================================
+ */
+
+/*
+ * --- 1. MODO TABLET ---
+ * (Telas menores que 1024px)
+ */
+@media (max-width: 1024px) {
+    .container {
+        width: 95%;
+        max-width: 95%;
+    }
+    .content-wrapper { gap: 30px; }
+    .main-feed .news-card img { width: 200px; }
+    .main-headline img { height: 350px; }
+}
+
+
+/*
+ * =========================================
+ * --- 2. MODO MOBILE ---
+ * (Telas menores que 768px)
+ * =========================================
+ */
+@media (max-width: 768px) {
+    
+    /* A. Ajuste de Largura */
+    .container {
+        width: 95%;
+        padding: 0 5px;
+    }
+
+    /* B. Layout de 1 coluna */
+    .content-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .main-feed,
+    .sidebar {
+        display: contents;
+    }
+
+    /* C. Ordem Vertical */
+    h2#noticias              { order: 1; margin-top: 20px; }
+    #lista-noticias-p1     { order: 2; }
+    .widget-ad-horizontal  { order: 3; }
+    #lista-noticias-p2     { order: 4; }
+    .widget-ad-parceiros   { order: 5; }
+    .widget-colunas        { order: 6; }
+    .widget-charges        { order: 7; }
+    .widget-ad-google      { order: 8; }
+    
+
+    /* --- D. Ajustes de Layout dos Cards (A CORREÇÃO FORÇADA) --- */
+    
+    .main-header .container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    /* 1. O Card: Vira uma coluna flexível e ocupa 100% */
+    .news-card {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    /* 2. O Link que envolve a imagem: Ocupa 100% e remove margens */
+    .news-card > a {
+        display: block !important;
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    /* 3. A Imagem: Ocupa 100% do link, altura fixa e sem distorção */
+    .news-card img {
+        display: block !important; /* Remove espaços fantasmas abaixo da img */
+        width: 100% !important;
+        max-width: 100% !important;
+        height: 180px !important; /* Altura fixa para padronizar */
+        object-fit: cover !important; /* Corta o excesso sem esticar */
+        object-position: center !important;
+        border-radius: 8px 8px 0 0 !important; /* Mantém borda arredondada no topo */
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    /* Ajuste da Manchete para seguir o padrão */
+    .main-headline img {
+        width: 100% !important;
+        height: 250px !important; /* Manchete um pouco maior */
+    }
+
+    .news-grid-main {
+        display: block;
+    }
+    .news-grid-main .news-card {
+        margin-bottom: 20px;
+    }
+
+    /* Banners de parceiros empilhados */
+    .widget-ad-parceiros .advertising-banner {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    /* Garante que imagens dentro de parceiros também ocupem 100% */
+    .widget-ad-parceiros img {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+
+    /* --- E. O Box de Rolagem Vertical (SEM BORDAS) --- */
+    .vertical-scroll-box {
+        max-height: 650px; 
+        overflow-y: auto;
+        overflow-x: hidden;
+        /* Removemos padding lateral para o card encostar na borda se quiser */
+        padding: 10px 0; 
+        background: none !important; /* Remove fundo cinza se houver */
+        border: none !important;
+    }
+    
+    .vertical-scroll-box .news-card {
+        margin-bottom: 20px;
+        width: 100% !important;
+    }
+    .vertical-scroll-box .news-card:last-child {
+        margin-bottom: 0;
+    }
+
+    /* Estilização da barra de rolagem */
+    .vertical-scroll-box {
+        scrollbar-width: thin;
+        scrollbar-color: var(--vermelho-principal) transparent;
+    }
+}
+
+/* --- AJUSTES DO CARROSSEL NO MOBILE --- */
+@media (max-width: 768px) {
+
+    /* 1. Esconde as setas no mobile (como você pediu) */
+    .swiper-parceiros .swiper-button-next,
+    .swiper-parceiros .swiper-button-prev {
+        display: none;
+    }
+
+    /* 2. Remove o empilhamento vertical que fizemos antes */
+    .widget-ad-parceiros .advertising-banner {
+        display: block; /* Deixa o Swiper controlar */
+        flex-direction: unset;
+        gap: 0;
+    }
+}
