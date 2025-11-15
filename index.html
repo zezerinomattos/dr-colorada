@@ -5,6 +5,169 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DR Colorada - Notícias do Inter</title>
 
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Fonte Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <!-- CSS Principal -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="icon" type="image/png" href="/img/ads/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/img/ads/favicon.svg" />
+    <link rel="shortcut icon" href="/img/ads/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/ads/apple-touch-icon.png" />
+    <link rel="manifest" href="/img/ads/site.webmanifest" />
+    
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="logo">
+                <div id="span-logo">
+                    <img src="./img/ads/logo.png" alt="DR COLORADA">
+                </div>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#noticias">Notícias</a></li>
+                    <li><a href="#coluna">Coluna</a></li>
+                    <li><a href="#charges">Charges</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MANCHETE PRINCIPAL -->
+    <section id="manchete-principal" class="container"></section>
+
+    <!-- ÁREA CENTRAL + SIDEBAR -->
+    <div class="container content-wrapper">
+
+        <!-- FEED PRINCIPAL -->
+        <main class="main-feed">
+            <h2 id="noticias" class="section-title">Últimas Notícias</h2>
+
+            <div id="lista-noticias-p1" class="news-grid-main">
+                <p>Carregando notícias...</p>
+            </div>
+
+            <div class="widget-ad-horizontal">
+                <h3 class="widget-title-hidden">Publicidade</h3>
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-SEU-ID-DE-PUBLICADOR-AQUI"
+                     data-ad-slot="SEU-ID-DE-BLOCO-HORIZONTAL"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+
+            <div id="lista-noticias-p2" class="news-grid-main vertical-scroll-box">
+                <p>Carregando notícias...</p>
+            </div>
+        </main>
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+
+            <!-- Parceiros (Bootstrap Carousel usando as mesmas classes!) -->
+            <div class="widget widget-ad-parceiros">
+                <h3 class="widget-title">Nossos Parceiros</h3>
+
+                <div id="carouselParceiros" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <a href="#" target="_blank">
+                                <img src="https://i.gruposwhats.app/grupo-de-whatsapp-emagrecimento-secaps-black-66a2bded03126.webp"
+                                    class="d-block w-100" alt="Anúncio 1">
+                            </a>
+                        </div>
+
+                        <div class="carousel-item">
+                            <a href="#" target="_blank">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtwMaePRmGvaRXZQMB4hxPJLGCJXaFIAeJmQ&s"
+                                    class="d-block w-100" alt="Anúncio 2">
+                            </a>
+                        </div>
+
+                        <div class="carousel-item">
+                            <a href="#" target="_blank">
+                                <img src="https://ocms.bc.kambicdn.com/ocms2/operators/kto/offerings/ktobr/files/8ae2818fe3f1bf14-promo-card-desktop@3x.png"
+                                    class="d-block w-100" alt="Anúncio 3">
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <!-- Controles -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselParceiros" data-bs-slide="prev"></button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselParceiros" data-bs-slide="next"></button>
+
+                    <!-- Indicadores -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselParceiros" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carouselParceiros" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carouselParceiros" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Google Ads -->
+            <div class="widget widget-ad-google">
+                <h3 class="widget-title">Publicidade</h3>
+            </div>
+
+            <!-- Colunas -->
+            <div class="widget widget-colunas">
+                <h3 id="coluna" class="widget-title">Opinião do Colunista</h3>
+                <div id="lista-colunas" class="vertical-scroll-box"></div>
+            </div>
+
+            <!-- Charges -->
+            <div class="widget widget-charges">
+                <h3 id="charges" class="widget-title">Charges (Zoando o Rival)</h3>
+                <div id="lista-charges" class="vertical-scroll-box"></div>
+            </div>
+
+        </aside>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 DR Colorada. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Scripts antigos (mantidos) -->
+    <script src="js/app.js"></script>
+    <script src="js/responsive.js"></script>
+
+</body>
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DR Colorada - Notícias do Inter</title>
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
@@ -17,7 +180,7 @@
 
     <header class="main-header">
         <div class="container header-content">
-            <div class="logo">DR <span>COLORADA</span></div>
+             <div class="logo"><div id="span-logo"><img src="./img/ads/logo.png" alt="DR COLORADA"></div></div>
             <nav>
                 <ul>
                     <li><a href="#noticias">Notícias</a></li>
@@ -107,4 +270,4 @@
     <script src="js/app.js"></script> 
     <script src="js/responsive.js"></script>
 </body>
-</html>
+</html> -->

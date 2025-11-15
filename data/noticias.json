@@ -149,11 +149,11 @@
     "destaque": false,
     "tipo": "video",
     "categoria": "Charge",
-    "titulo": "O Fantasma da B voltou para assombrar o vizinho!",
-    "resumo": "Eles acharam que estavam salvos? A nossa charge da semana mostra que não.",
-    "imagem": "https://placehold.co/600x400/0000FF/FFFFFF/png?text=Fantasma+da+B",
-    "videoUrl": "https://www.youtube.com/embed/exemplo1",
-    "data": "13/11/2025"
+    "titulo": "É pênalti para o Grêmio, o juíz viu! 😂",
+    "resumo": "Reclamaram do juiz, do vento e do gramado. Só faltou jogar bola.",
+    "imagem": "https://media.canva.com/v2/image-resize/format:JPG/height:608/quality:92/uri:ifs%3A%2F%2FM%2Fe5ded15a-4c4e-4de4-b3c1-5135036169c8/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAAM2xf4fW3ZaG09WL5UGepxVNDO5Xbop5LkR1KHl36cze&exp=1763244553&osig=AAAAAAAAAAAAAAAAAAAAAGRI1hcRWmorjCXFA4Sk7qfIbYWfpDeZ_vF8sXnBE26G&signer=media-rpc&x-canva-quality=screen",
+    "videoUrl": "https://media.canva.com/v2/files/uri:ifs%3A%2F%2FV%2FLDW1_4mDP__3UnfIpqqHn_P1gSb4zLMnIm7w1rNGOKc.mp4?csig=AAAAAAAAAAAAAAAAAAAAANZTRMfhp1iVD1ssGZNgEGVyf8zTylE3_WZMAfRwXHvl&exp=1763240160&signer=video-rpc&token=AAIAAVYAL0xEVzFfNG1EUF9fM1VuZklwcXFIbl9QMWdTYjR6TE1uSW03dzFyTkdPS2MubXA0AAAAAAGaiU2rAOceVJNsTe7A6OANI0L3v6n1ILskeAX8Ag5_gnWVpHDm",
+    "data": "15/11/2025"
   },
   {
     "id": 9,
@@ -161,7 +161,7 @@
     "tipo": "video",
     "categoria": "Charge",
     "titulo": "VARzea: A choradeira no outro lado da cidade",
-    "resumo": "Reclamaram do juiz, do vento e do gramado. Só faltou jogar bola.",
+    "resumo": "Eles acharam que estavam salvos? A nossa charge da semana mostra que não.",
     "imagem": "https://placehold.co/600x400/000000/FFFFFF/png?text=Choradeira+Azul",
     "videoUrl": "https://www.youtube.com/embed/exemplo2",
     "data": "10/11/2025"
