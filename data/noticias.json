@@ -1,5 +1,16 @@
 [
   {
+    "id": 1,
+    "destaque": true,
+    "tipo": "texto",
+    "categoria": "Notícia",
+    "titulo": "O Sul É Colorado, Sim! Pesquisa da CBF Coloca o Inter à Frente no Ranking Nacional de Torcidas!",
+    "resumo": "A Confederação Brasileira de Futebol (CBF) divulgou um novo estudo que confirma o que a gente já sabia: o Clube do Povo é a maior torcida do Sul do Brasil! O Internacional aparece em sexto no ranking nacional, com 4% das menções, deixando o rival direto para trás.",
+    "imagem": "https://lncimg.lance.com.br/cdn-cgi/image/width=950,quality=75,fit=pad,format=webp/uploads/2024/10/Alan-Patrick-comemoracao-gol-Internacional-Cuiaba-scaled-aspect-ratio-512-320.jpg",
+    "conteudo": "### **O Mundo Não Gira, Ele Roda com o Manto Colorado: Somos a Maior Torcida do Sul, Diz a CBF!**\n\nO dia 14 de novembro de 2025 ficará marcado na memória colorada não por um gol histórico ou um título, mas sim pela **confirmação oficial** do nosso gigantismo. A Confederação Brasileira de Futebol (CBF) divulgou, através de uma pesquisa encomendada à Nexus, o ranking das maiores torcidas do país, e a notícia é música para os nossos ouvidos e um tapa de luva para quem insiste em contestar: **O Sport Club Internacional possui a maior torcida do Sul do Brasil!**\n\nO estudo, que ouviu mais de 2 mil pessoas em todo o território nacional, entre 15 e 24 de agosto, é categórico: o Colorado ocupa a **sexta posição** no ranking geral do país, com 4% das menções, empatado com o Cruzeiro. O que nos enche de orgulho, além da nossa força em nível nacional, é o fato de o nosso rival, o Grêmio, aparecer em nono lugar, com 3%, ficando claramente para trás na contagem.\n\n#### **A Força do Povo**\n\nNão é de hoje que a Nação Colorada mostra sua garra e seu número. Seja no Beira-Rio, empurrando o time, ou espalhada pelo Brasil e pelo mundo, nossa paixão é inquestionável. Os 4% da população nacional que vestem o manto vermelho nos colocam na elite do futebol brasileiro, superando grandes clubes de outros estados e, o que é melhor, consolidando a nossa hegemonia regional.\n\nO Internacional é **Gigante em Campo e Gigante nas Arquibancadas!** Este resultado é um reconhecimento da história, da tradição e, principalmente, da paixão inigualável que move milhões de colorados diariamente. Somos, inegavelmente, a *melhor* e *maior* torcida do Sul!\n\n| Posição | Clube | Percentual Nacional |\n| :---: | :---: | :---: |\n| 1º | Flamengo | 26% |\n| 2º | Corinthians | 19% |\n| 3º | São Paulo | 9% |\n| 4º | Palmeiras | 7% |\n| 5º | Vasco da Gama | 5% |\n| **6º** | **Internacional** | **4%** |\n| 7º | Cruzeiro | 4% |\n| 8º | Atlético-MG | 3% |\n| **9º** | **Grêmio** | **3%** |\n| 10º | Santos | 3% |\n\n*Fonte: Pesquisa CBF/Nexus (Novembro/2025)*\n\nÉ com esse moral, com a certeza da nossa grandeza popular, que seguimos adiante. O número não mente: O **Clube do Povo** é a paixão que domina o Sul!",
+    "data": "14/11/2025"
+  },
+  {
     "id": 1763179317422,
     "destaque": false,
     "tipo": "texto",
@@ -25,7 +36,7 @@
   },
   {
     "id": 1,
-    "destaque": true,
+    "destaque": false,
     "tipo": "texto",
     "categoria": "Notícia",
     "titulo": "Inter atropela no Beira-Rio com show de Alan Patrick e cola na liderança",
