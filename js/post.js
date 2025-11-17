@@ -47,10 +47,62 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // 4. Função que desenha o post na tela
-    function renderizarPost(post) {
-        // Atualiza o Título da Aba do Navegador
-        document.title = post.titulo + " - DR Colorada";
+    // function renderizarPost(post) {
+    //     // Atualiza o Título da Aba do Navegador
+    //     document.title = post.titulo + " - DR Colorada";
 
+    //     // Preenche os elementos
+    //     tituloEl.textContent = post.titulo;
+    //     categoriaEl.textContent = post.categoria;
+    //     dataEl.textContent = `Publicado em: ${post.data}`;
+
+    //     // Limpa o conteúdo de "Carregando"
+    //     mediaContainerEl.innerHTML = "";
+    //     conteudoEl.innerHTML = "";
+
+    //     // Lógica: Se for 'video', mostra o iframe. Se for 'texto', mostra a imagem.
+    //     if (post.tipo === 'video' && post.videoUrl) {
+            
+    //         // Cria um Iframe para o vídeo
+    //         const videoIframe = document.createElement('iframe');
+    //         videoIframe.src = post.videoUrl;
+    //         videoIframe.title = post.titulo;
+    //         videoIframe.setAttribute('frameborder', '0');
+    //         videoIframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+    //         videoIframe.setAttribute('allowfullscreen', '');
+            
+    //         mediaContainerEl.appendChild(videoIframe);
+            
+    //         // No caso do vídeo (charge), o "conteúdo" será o resumo
+    //         conteudoEl.innerHTML = `<p>${post.resumo}</p>`;
+
+    //     } else {
+    //         // Cria a imagem de destaque
+    //         const imagem = document.createElement('img');
+    //         imagem.src = post.imagem;
+    //         imagem.alt = post.titulo;
+            
+    //         mediaContainerEl.appendChild(imagem);
+            
+    //         // No caso de texto (notícia/coluna), injeta o HTML do conteúdo
+    //         conteudoEl.innerHTML = post.conteudo;
+    //     }
+    // }
+
+    function renderizarPost(post) {
+        // --- 1. ATUALIZA AS META TAGS E O TÍTULO DA PÁGINA ---
+        document.title = post.titulo + " - DR em Campo";
+        
+        // Atualiza a meta tag de descrição
+        document.querySelector('meta[name="description"]').setAttribute("content", post.resumo);
+        
+        // Atualiza as meta tags Open Graph (Social)
+        document.querySelector('meta[property="og:title"]').setAttribute("content", post.titulo);
+        document.querySelector('meta[property="og:description"]').setAttribute("content", post.resumo);
+        document.querySelector('meta[property="og:image"]').setAttribute("content", post.imagem);
+        document.querySelector('meta[property="og:url"]').setAttribute("content", window.location.href);
+
+        // --- 2. SEU CÓDIGO ANTIGO (continua igual) ---
         // Preenche os elementos
         tituloEl.textContent = post.titulo;
         categoriaEl.textContent = post.categoria;
@@ -63,28 +115,17 @@ document.addEventListener("DOMContentLoaded", () => {
         // Lógica: Se for 'video', mostra o iframe. Se for 'texto', mostra a imagem.
         if (post.tipo === 'video' && post.videoUrl) {
             
-            // Cria um Iframe para o vídeo
             const videoIframe = document.createElement('iframe');
             videoIframe.src = post.videoUrl;
-            videoIframe.title = post.titulo;
-            videoIframe.setAttribute('frameborder', '0');
-            videoIframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
-            videoIframe.setAttribute('allowfullscreen', '');
-            
+            // ... (resto do seu código de iframe)
             mediaContainerEl.appendChild(videoIframe);
-            
-            // No caso do vídeo (charge), o "conteúdo" será o resumo
             conteudoEl.innerHTML = `<p>${post.resumo}</p>`;
 
         } else {
-            // Cria a imagem de destaque
             const imagem = document.createElement('img');
             imagem.src = post.imagem;
             imagem.alt = post.titulo;
-            
             mediaContainerEl.appendChild(imagem);
-            
-            // No caso de texto (notícia/coluna), injeta o HTML do conteúdo
             conteudoEl.innerHTML = post.conteudo;
         }
     }
