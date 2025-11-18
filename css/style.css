@@ -486,3 +486,46 @@ footer {
     overflow: hidden;
 }
 
+
+
+/* --- ESTILOS DA BARRA DE COMPARTILHAMENTO --- */
+
+.share-bar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px; /* Espaço entre os botões */
+    padding: 15px 0;
+    margin-bottom: 25px;
+    border-top: 1px dashed #ddd; /* Linha de separação */
+    border-bottom: 1px dashed #ddd;
+}
+
+.share-label {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--preto);
+    margin-right: 10px;
+}
+
+.btn-share {
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: white !important; /* Cor do texto sempre branca */
+    text-decoration: none !important;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: opacity 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.btn-share:hover {
+    opacity: 0.85;
+}
+
+/* Cores de Marca */
+.btn-whatsapp { background-color: #25D366; }
+.btn-facebook { background-color: #1877F2; }
+.btn-instagram { background-color: #E4405F; } /* Usaremos a cor do Instagram */

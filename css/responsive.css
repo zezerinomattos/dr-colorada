@@ -222,3 +222,28 @@
     }
 }
 
+
+/*
+ * --- AJUSTE DA BARRA DE COMPARTILHAMENTO (MOBILE) ---
+ */
+@media (max-width: 768px) {
+    
+    /* 1. Faz o container empilhar o label e os botões */
+    .share-bar {
+        flex-direction: column; 
+        align-items: flex-start; /* Alinha o texto e botões à esquerda */
+        gap: 10px;
+    }
+
+    /* 2. Força cada botão a ocupar a largura total do card */
+    .btn-share {
+        width: 100% !important; 
+        justify-content: center; /* Centraliza o texto dentro do botão */
+    }
+
+    /* 3. Ajusta o rótulo */
+    .share-label {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+}
