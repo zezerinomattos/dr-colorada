@@ -113,7 +113,12 @@
         margin-bottom: 20px;
     }
 
-    /* Banners de parceiros empilhados */
+    /* Banners de parceiros empilhados  */
+    .widget-index{
+        min-width: 100%;
+    }
+
+
     .widget-ad-parceiros .advertising-banner {
         display: flex;
         flex-direction: column;
@@ -150,6 +155,21 @@
     .vertical-scroll-box {
         scrollbar-width: thin;
         scrollbar-color: var(--vermelho-principal) transparent;
+    }
+
+    /* Estilização da seção colunistas*/
+    .widget-colunas {
+        min-width: 100%;
+    }
+
+    /* Estilização da seção charges*/
+    .widget-charges {
+        min-width: 100%;
+    }
+
+    /* Estilização da seção publicidade*/
+    .widget-ad-google {
+        min-width: 100%;
     }
 }
 
