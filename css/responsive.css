@@ -197,3 +197,28 @@
         text-align: center;
     }
 }
+
+
+/* Ajuste exclusivo para telas menores */
+@media (max-width: 768px) {
+    .news-card img,
+    .main-headline img,
+    .sidebar .news-card img,
+    #post-media-container img,
+    .news-grid img,
+    .news-grid-main img {
+        object-fit: cover !important;
+        object-position: top !important;
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+    }
+
+    /* garante que o container corte corretamente */
+    .news-card,
+    .main-headline,
+    #post-media-container {
+        overflow: hidden !important;
+    }
+}
+
