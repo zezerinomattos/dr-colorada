@@ -160,6 +160,26 @@ footer {
     margin-top: auto;
 }
 
+/* --- ESTILOS DO RODAPÉ ATUALIZADO --- */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Para o mobile */
+    gap: 15px;
+}
+
+.footer-nav a {
+    color: #999; /* Cor cinza clara */
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-nav a:hover {
+    color: var(--branco); /* Fica branco ao passar o mouse */
+    text-decoration: underline;
+}
+
 /* --- NOVOS ESTILOS DO PORTAL --- */
 
 /* Manchete Principal (Destaque) */

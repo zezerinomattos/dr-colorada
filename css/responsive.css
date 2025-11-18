@@ -159,3 +159,11 @@
         gap: 0;
     }
 }
+
+/* Ajuste para o mobile */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column; /* Empilha no mobile */
+        text-align: center;
+    }
+}
