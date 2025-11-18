@@ -235,6 +235,8 @@ footer {
     position: sticky; /* Faz a sidebar "grudar" ao rolar */
     top: 20px;
     align-self: flex-start; /* Alinha no topo */
+
+    max-width: 100%;
 }
 
 /* Grid de notícias principal (diferente do antigo) */
@@ -269,6 +271,8 @@ footer {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     margin-bottom: 30px;
+
+    max-width: 95%;
 }
 
 .widget-title {
@@ -353,7 +357,8 @@ footer {
     color: inherit;
 }
 
-.post-completo {
+.post-completo { 
+    
     background: var(--branco);
     padding: 30px;
     border-radius: 8px;

@@ -166,4 +166,8 @@
         flex-direction: column; /* Empilha no mobile */
         text-align: center;
     }
+
+    .post-completo { 
+        max-width: 95%;
+    }
 }
