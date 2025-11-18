@@ -43,6 +43,16 @@
         display: contents;
     }
 
+    /* Widgets da Sidebar pagina noticias */
+    .post-completo { 
+        max-width: 92%;
+    }
+
+    /* Widgets da Sidebar */
+    .widget {
+        max-width: 92%;
+    }
+
     /* C. Ordem Vertical */
     h2#noticias              { order: 1; margin-top: 20px; }
     #lista-noticias-p1     { order: 2; }
@@ -165,9 +175,5 @@
     .footer-content {
         flex-direction: column; /* Empilha no mobile */
         text-align: center;
-    }
-
-    .post-completo { 
-        max-width: 95%;
     }
 }
