@@ -53,6 +53,11 @@
         max-width: 92%;
     }
 
+    /* Esconde o banner horizontal do feed para o mobile */
+    .widget-ad-horizontal-publicidade {
+        display: none !important;
+    }
+
     /* C. Ordem Vertical */
     h2#noticias              { order: 1; margin-top: 20px; }
     #lista-noticias-p1     { order: 2; }

@@ -86,6 +86,32 @@
                     <p>Por favor, aguarde...</p>
                 </div>
 
+                <div id="post-conteudo" class="post-body">
+            </div>
+        
+            <div id="disqus_thread"></div>
+                <script>
+                    // CONFIGURAÇÃO DINÂMICA
+                    // O post.js precisa ter a variável 'postId' declarada como 'var' no topo para isso funcionar
+                    var disqus_config = function () {
+                        // O ID do post garante que o comentário certo fique na matéria certa
+                        this.page.identifier = postId; 
+                        // A URL é importante para o Disqus indexar corretamente
+                        this.page.url = window.location.href;
+                    };
+                
+                    (function() { 
+                        var d = document, s = d.createElement('script');
+                        // Substitua o 's.src' pelo link completo que o Disqus te deu (incluindo seu shortname)
+                        s.src = 'https://dr-em-campo-noticias-do-inter.disqus.com/embed.js'; 
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                    <noscript>Por favor, ative o JavaScript para ver os comentários.</noscript>
+                </article>
+        </main>
+
 
             </article>
         </main>
