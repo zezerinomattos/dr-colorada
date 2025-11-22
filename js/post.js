@@ -136,14 +136,25 @@ document.addEventListener("DOMContentLoaded", () => {
         const shareUrl = encodeURIComponent(window.location.href);
         const shareTitle = encodeURIComponent(post.titulo);
         
+        // const buttonsHtml = `
+        //     <a class="btn-share btn-whatsapp" href="https://wa.me/?text=${shareTitle}%20%7C%20Leia%20em:%20${shareUrl}" target="_blank">
+        //         WhatsApp
+        //     </a>
+        //     <a class="btn-share btn-facebook" href="https://www.facebook.com/sharer/sharer.php?u=${shareUrl}" target="_blank">
+        //         Facebook
+        //     </a>
+        //     <a class="btn-share btn-instagram" href="https://www.instagram.com/z_mattos" target="_blank">
+        //         Siga no Instagram
+        //     </a>
+        // `;
         const buttonsHtml = `
-            <a class="btn-share btn-whatsapp" href="https://wa.me/?text=${shareTitle}%20%7C%20Leia%20em:%20${shareUrl}" target="_blank">
+            <a class="btn-share btn-whatsapp" href="https://wa.me/?text=${shareTitle}%20%7C%20Leia%20em:%20${shareUrl}" target="_blank" onclick="gtag('event', 'share_click', { 'method': 'WhatsApp' });">
                 WhatsApp
             </a>
-            <a class="btn-share btn-facebook" href="https://www.facebook.com/sharer/sharer.php?u=${shareUrl}" target="_blank">
+            <a class="btn-share btn-facebook" href="https://www.facebook.com/sharer/sharer.php?u=${shareUrl}" target="_blank" onclick="gtag('event', 'share_click', { 'method': 'Facebook' });">
                 Facebook
             </a>
-            <a class="btn-share btn-instagram" href="https://www.instagram.com/z_mattos" target="_blank">
+            <a class="btn-share btn-instagram" href="https://www.instagram.com/dr_em_campo" target="_blank" onclick="gtag('event', 'share_click', { 'method': 'Instagram' });">
                 Siga no Instagram
             </a>
         `;

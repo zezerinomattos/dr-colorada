@@ -355,7 +355,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <a href="${link}" class="card-link-wrapper">
                         <h3 class="news-title">${post.titulo}</h3>
                     </a>
-                    <a href="${link}" class="read-more">Ver Mais &rarr;</a>
+                    <a href="${link}" class="read-more" onclick="gtag('event', 'cta_click', { 'cta_type': 'Ver Mais', 'post_title': '${post.titulo}' });">Ver Mais &rarr;</a>
                 </div>
             </article>
         `;
@@ -375,7 +375,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <h3 class="news-title">${post.titulo}</h3>
                     </a>
                     <p class="news-excerpt">${post.resumo}</p>
-                    <a href="${link}" class="read-more">Ver Mais &rarr;</a>
+                    <a href="${link}" class="read-more" onclick="gtag('event', 'cta_click', { 'cta_type': 'Ver Mais', 'post_title': '${post.titulo}' });">Ver Mais &rarr;</a>
                 </div>
             </article>
         `;
