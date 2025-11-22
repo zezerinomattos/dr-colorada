@@ -529,3 +529,33 @@ footer {
 .btn-whatsapp { background-color: #25D366; }
 .btn-facebook { background-color: #1877F2; }
 .btn-instagram { background-color: #E4405F; } /* Usaremos a cor do Instagram */
+
+
+/* --- ESTILOS PARA IMAGENS DENTRO DO CONTEÚDO DO POST --- */
+
+.img-conteudo-wrapper {
+    margin: 30px auto; /* Centraliza a figura e dá espaçamento */
+    max-width: 100%; /* Garante que não transborde */
+    text-align: center; /* Centraliza a imagem e legenda dentro da figure */
+}
+
+.img-conteudo {
+    max-width: 100%; /* Faz a imagem ser responsiva */
+    height: auto; /* Mantém a proporção */
+    display: block; /* Remove espaço extra abaixo da imagem */
+    border-radius: 8px; /* Cantos levemente arredondados */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Sombra suave */
+}
+
+.img-conteudo-wrapper figcaption {
+    font-size: 0.9em;
+    color: #888;
+    margin-top: 10px;
+    padding: 0 10px; /* Adiciona um pouco de padding para a legenda */
+}
+
+/* Opcional: Adicionar um estilo para texto com parágrafo normal */
+.post-body p {
+    line-height: 1.7; /* Melhora a leitura do texto */
+    margin-bottom: 1em; /* Espaçamento entre parágrafos */
+}
