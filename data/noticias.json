@@ -1,7 +1,19 @@
 [
   {
-    "id": 1763931060195,
+    "id": 1764017740032,
     "destaque": true,
+    "tipo": "texto",
+    "categoria": "Notícia",
+    "titulo": "Emergência no Gol: Rochet Antecipa Retorno e Será Titular Contra o Santos Após Desfalques em Série",
+    "resumo": "Anthoni sente desconforto muscular e, em uma situação de emergência, Rochet será o titular no jogo de vida ou morte contra o Santos. Entenda o drama no gol e a formação que Ramón Díaz vai a campo hoje à noite!",
+    "imagem": "https://i.ibb.co/SYs8vjg/A-TORCIDA-ABRA-OU.webp",
+    "data": "24/11/2025",
+    "conteudo": "<b>ROCÊ CHEGOU A SALVAÇÃO! Crise no Gol Acelera o Retorno do Ídolo!</b>\n\nUma reviravolta de última hora no Departamento Médico do Internacional forçou o técnico Ramón Díaz a fazer uma mudança crucial na escalação para o confronto de vida ou morte contra o Santos, logo mais, às 21h, no Beira-Rio.\n\nO goleiro uruguaio Sergio Rochet terá seu retorno antecipado e será o titular na meta colorada, mesmo sem estar com 100% do ritmo de jogo. A decisão ocorre em função de uma crise de lesões que atingiu a posição nos últimos dias.\n<figure class=\"img-conteudo-wrapper\">\n    <img src=\"https://i.ibb.co/nsCww4zw/A-TORCIDA-ABRA-OU-1.webp\" \n         alt=\"Descrição alternativa da imagem\" \n         class=\"img-conteudo\">\n</figure>\n<b>Anthoni Sente Desconforto e Crise de Goleiros Acelera Rochet</b>\n\nO jovem Anthoni, que havia voltado a ser o titular após a lesão de Ivan, sentiu um desconforto muscular durante o treino aberto de sábado (22), no Beira-Rio. Embora tenha sido relacionado, o desconforto impediu que o goleiro de 23 anos fosse a campo na partida decisiva de hoje.\n\nA situação é dramática e forçou a aceleração da recuperação de Rochet. Além de Anthoni, o Internacional já contava com as baixas do goleiro Ivan (que sofreu uma lesão muscular na coxa e não atua mais na temporada) e de Kauan Jesus (que sofreu uma lesão multiligamentar grave no tornozelo e também está fora do restante do ano).\n\nRochet, que se recuperava de um trauma no pé esquerdo e de uma cirurgia para retirada de pinos e placa metálicas na mão, teve a recuperação acelerada para vestir a camisa 1 e garantir que o Inter tenha um goleiro experiente no jogo mais importante do ano.\n\n<b>Escalação Confirmada</b>\n\nA volta emergencial de Rochet é a principal novidade em uma equipe que terá o retorno de Thiago Maia (após suspensão) e a ausência do volante Luís Otávio (suspenso) — cuja venda para o Orlando City foi noticiada ontem.\n\nCom o problema no gol resolvido, Ramón Díaz deve mandar a campo a seguinte formação:\n\nProvável Escalação do Internacional:\n\nRochet; Braian Aguirre, Vitão, Gabriel Mercado e Bernabei; Thiago Maia, Alan Rodríguez, Bruno Gomes e Alan Patrick; Vitinho e Borré (ou Ricardo Mathias).\n\nO jogo, válido pela 35ª rodada do Brasileirão, é considerado um \"clássico da sobrevivência\", valendo 6 pontos na luta para afastar de vez o fantasma do rebaixamento.",
+    "videoUrl": ""
+  },
+  {
+    "id": 1763931060195,
+    "destaque": false,
     "tipo": "texto",
     "categoria": "Notícia",
     "titulo": "Meta Orçamentária em Foco: Inter Finaliza Venda de Luís Otávio ao Orlando City por US$ 3,5 Milhões!",
