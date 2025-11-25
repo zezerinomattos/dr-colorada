@@ -1,10 +1,22 @@
 [
   {
+    "id": 1764046751753,
+    "destaque": false,
+    "tipo": "texto",
+    "categoria": "Coluna",
+    "titulo": "O Comando Cego: As Substituições de Ramón Díaz e a Autodestruição do Inter no Clássico da Sobrevivência",
+    "resumo": "Ramón e Emiliano Díaz destruíram o meio-campo com alterações inexplicáveis e Borré perdeu gols inacreditáveis. Zezerino Mattos <b>aponta os responsáveis</b> em sua opinião pelo ponto perdido e mostra a cegueira tática que nos coloca em risco.",
+    "imagem": "https://i.ibb.co/VYkxHHGF/A-TORCIDA-ABRA-OU.webp",
+    "data": "25/11/2025",
+    "conteudo": "<b>A Coluna Que Analisa o Empate de 1 a 1 que Poderia Ter Sido Goleada!</b>\n\nApreensão, colorado. É esse o sentimento que nos resta após o 1 a 1 contra o Santos no Beira-Rio. Depois de um primeiro tempo de gala – onde o Internacional produziu o suficiente para golear e exorcizar de vez o fantasma da Série B – o time voltou para a segunda etapa em uma rotação mais baixa, e o que era má administração virou autodestruição pelas mãos da própria comissão técnica.\n\nO Internacional não empatou; ele entregou o jogo. E a responsabilidade cai diretamente sobre Ramón e Emiliano Díaz.\n\n<b>O Erro Fatal de Leitura</b>\n\nA saída de Alan Rodríguez foi o ponto de inflexão inexplicável do jogo. O uruguaio era, de longe, o melhor jogador do Internacional em campo. Corria em uma rotação acima dos companheiros, preenchia todo o setor de meio-campo, cobria as subidas de Bernabei, triangulava com Alan Patrick e ainda pisava na área. Sua saída, enquanto ainda parecia inteiro, tirou toda a robustez e o fôlego dinâmico que o Inter tinha no setor vital.\n\nSem Alan Rodríguez, o meio-campo desabou, o Santos cresceu e se tornou perigoso.\n\nEsta não é a primeira vez que vemos essa tragédia. É um padrão: entra semana e sai semana, e a comissão técnica demonstra uma cegueira tática nas alterações. Assim como nas derrotas recentes, a impressão é que os treinadores trocam por trocar, sem saber o que está acontecendo no jogo, destruindo o que funciona em busca de algo que não existe.\n\nA cereja no bolo foi a façanha de colocar três laterais-direitos em campo (incluindo a inexplicável entrada de Alan Benítez), mostrando um desespero que se traduz em uma salada de erros. É impossível vencer quando seu comandante não sabe em que planeta está.\n\n<b>Borré: O Vilão Mais Caro</b>\n\nMas não podemos colocar toda a culpa na beira do campo. Dentro das quatro linhas, tivemos atuações individuais que também custaram a vitória.\n\nBorré foi participativo, brigou, desarmou e ajudou na construção de jogadas. Tudo isso é louvável, mas inútil se a função principal do atacante mais caro do elenco, contratado com toda a pompa para ser o centroavante e artilheiro, não é executada.\n\nOntem, em uma das tantas chances claríssimas, Borré recebeu a bola na marca do pênalti, sozinho, e rolou na mão do goleiro. O atacante falha consistentemente na função que mais importa para a equipe, e isso o credencia como um dos grandes vilões do empate.\n\nO mesmo vale para Vitinho, um jogador esforçado e dedicado, mas que perdeu pelo menos dois gols claros, inclusive aquele no travessão que abriria a porteira no primeiro tempo.\n\n<b>Reta Final e o Desespero Técnico</b>\nO resultado nos deixou com 41 pontos, exigindo mais dois pontinhos para chegarmos ao número mágico de 43. O problema é que, com a atuação de ontem, a falta de gols dos atacantes e as alterações autodestrutivas dos Díaz, somos obrigados a buscar a vitória fora de casa contra o Vasco, um adversário direto.\n\nO Inter de Ramón/Emiliano tem a obrigação de provar que existe inteligência tática nesta reta final. Caso contrário, o alívio virá por pura sorte e incompetência alheia, e não por mérito próprio.\n\n<b>Zezerino Mattos</b> Colunista e Editor do DR em Campo. Estudante de jornalismo identificado com o Clube do Povo e fanático por análise do futebol gaúcho e brasileiro.",
+    "videoUrl": ""
+  },
+  {
     "id": 1764042816341,
     "destaque": true,
     "tipo": "texto",
     "categoria": "Notícia",
-    "titulo": "O EMPATE QUE DÓI: Inter 1 x 1 Santos Prolonga DRAMA do Rebaixamento com Jogo de Pés Trocados no Beira-Rio",
+    "titulo": "O EMPATE QUE DÓI: Inter 1 x 1 Santos Prologa DRAMA do Rebaixamento com Jogo de Pés Trocados no Beira-Rio",
     "resumo": "Alan Patrick abriu o placar, mas a equipe não matou o jogo no 1º tempo e cedeu o empate. O resultado de 1 a 1 é péssimo e mantém o Colorado perigosamente perto do Z-4. Entenda como o empate força o Inter a vencer fora de casa nas próximas rodadas!",
     "imagem": "https://i.ibb.co/5grV50gP/Inter-e-santos.webp",
     "data": "25/11/2025",
@@ -13,7 +25,7 @@
   },
   {
     "id": 1764017740032,
-    "destaque": false,
+    "destaque": true,
     "tipo": "texto",
     "categoria": "Notícia",
     "titulo": "Emergência no Gol: Rochet Antecipa Retorno e Será Titular Contra o Santos Após Desfalques em Série",
