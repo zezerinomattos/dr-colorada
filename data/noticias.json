@@ -1,5 +1,17 @@
 [
   {
+    "id": 1764182933824,
+    "destaque": true,
+    "tipo": "texto",
+    "categoria": "Notícia",
+    "titulo": "A Maldição da Camisa \"9\" no Inter é Sintoma da Crise Estrutural e da Gestão Cega",
+    "resumo": "O Sport Club Internacional gasta fortunas com centroavantes de renome mundial, mas o resultado é sempre o mesmo: fracasso e saída pela porta dos fundos. De Valencia a Borré, o que explica a falência do setor mais caro do clube? Nossa matéria investiga como a alta rotação de técnicos e a direção sem \"cheiro de vestiário\" são os verdadeiros culpados pelo rombo financeiro e pela falta de gols.",
+    "imagem": "https://i.ibb.co/FqqV5Hd3/Atacantes-que-n-o-d-o-certo.webp",
+    "data": "26/11/2025",
+    "conteudo": "<b>A Camisa \"9\" e o Disparo da Dívida</b>\n\nO ataque é o setor mais caro do Sport Club Internacional, responsável por absorver salários estratosféricos e os maiores custos em direitos de imagem e luvas. Nos últimos anos, o alto investimento nessa posição se tornou diretamente proporcional ao crescimento da dívida do clube, contribuindo para que o passivo colorado disparasse.\n\nA aposta era trazer goleadores de renome para serem a referência, mas o resultado é um <b>buraco negro de performance</b>.\n\nOs nomes que vieram recentemente possuem currículos pesadíssimos e rodagem internacional, mas no Beira-Rio, tornaram-se sombras:\n\n- Enner Valencia: Goleador da Copa do Mundo e estrela do Fenerbahçe. Saiu sob forte contestação, sem a performance que justificasse o investimento.\n\n- Lucas Alario: Consolidado como goleador no River Plate e no futebol alemão (Leverkusen/Frankfurt). Sua passagem foi marcada por lesões e uma total incapacidade de se firmar.\n\n- Rafael Borré: Jogador mais caro do elenco atual, destaque e fazedor de gols na América do Sul e Europa. Vaiado a cada jogo em casa e, tal qual os outros, não consegue entregar o retorno esperado, caminhando para uma saída melancólica.\n\nO que acontece no Inter é um fenômeno que ultrapassa a simples \"má fase\" do jogador.\n\n<b>O Vício da Rotação e a Falta de Adaptação</b>\n\nDesde 2020, o Internacional vive sob o vício da troca de comando técnico. Com uma média de, no mínimo, dois treinadores por temporada (Coudet, Abel, Ramírez, Aguirre, Medina, Mano, Coudet novamente, Roger, e agora Ramón Díaz), é impossível esperar que um centroavante se adapte a um modelo tático e crie entrosamento.\n\n- Um jogador como Alario, por exemplo, chegou lesionado e nunca teve a mesma estrutura tática para se recuperar e se encaixar, pulando de esquema em esquema.\n\n- Borré, a aposta atual, já viu o Inter ser comandado por Coudet, Roger e agora por Ramón Díaz, com filosofias de jogo contrastantes.\n\nA desorganização tática contribui para o fracasso dos atletas, mas a raiz do problema é ainda mais profunda e está no andar de cima.\n\n<b>A Direção Sem \"Cheiro de Vestiário\" é a Culpa Estrutural</b>\n<figure class=\"img-conteudo-wrapper\">\n    <img src=\"https://i.ibb.co/0phpMXcT/Barcellos.webp\" \n         alt=\"Descrição alternativa da imagem\" \n         class=\"img-conteudo\">\n</figure>\nO ponto central da crise dos ataques colorados é a desorganização do Departamento de Futebol. O Inter investe milhões em jogadores, mas falha em ter pessoas qualificadas nos cargos de gestão, que deveriam ser o pilar de sustentação.\n\nCom nomes como Paulo Brás, William Thomas e André Mazzuco (além de Vices de Futebol sem histórico ou conhecimento profundo de vestiário), a direção demonstra uma grave carência de profissionais que:\n\n- Antevejam Problemas: Faltam dirigentes que consigam sentir o clima do vestiário e identificar, logo no início, o que está prestes a \"dar ruim\" com um jogador (problemas de adaptação, confiança, etc.).\n\n- Cobrem e Conduzam: Não há cobrança efetiva e embasada. Jogadores de alto custo precisam de acompanhamento e de um dirigente que \"encoste\" no treinador para sugerir que o esquema tático não está funcionando para o camisa 9.\n\n- Habilidade de Negociação: A falta de know-how permite que o clube gaste excessivamente e, pior, não consiga reverter a situação, vendendo mal ou tendo os atletas saindo e acionando Justiça, como vimos em casos recentes.\n\nA verdade é que o Internacional se tornou um clube com gestão amadora para um orçamento de Série A. Enquanto a camisa \"9\" e os técnicos forem os únicos bodes expiatórios, a dívida e os vexames vão continuar, pois o problema não está no campo: está na incapacidade de quem administra a paixão colorada.",
+    "videoUrl": ""
+  },
+  {
     "id": 1764046751753,
     "destaque": false,
     "tipo": "texto",
@@ -13,7 +25,7 @@
   },
   {
     "id": 1764042816341,
-    "destaque": true,
+    "destaque": false,
     "tipo": "texto",
     "categoria": "Notícia",
     "titulo": "O EMPATE QUE DÓI: Inter 1 x 1 Santos Prologa DRAMA do Rebaixamento com Jogo de Pés Trocados no Beira-Rio",
