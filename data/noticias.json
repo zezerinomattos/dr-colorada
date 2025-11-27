@@ -1,7 +1,19 @@
 [
   {
-    "id": 1764182933824,
+    "id": 1764282052195,
     "destaque": true,
+    "tipo": "texto",
+    "categoria": "Notícia",
+    "titulo": "Caos Financeiro ou Ruído de Comunicação? A Polêmica do Aluguel do CT de Alvorada que Agitou os Bastidores!",
+    "resumo": "A polêmica sobre o atraso no aluguel do CT de Alvorada gerou uma resposta oficial do Inter, que atribuiu a pendência a uma \"dívida antiga de 2019\", da gestão anterior. O que a nota não conta é que os comandantes das finanças naquela época são os mesmos de hoje: Alessandro Barcellos (então Vice de Finanças) e Giovane Zanardo (então Diretor Financeiro). Investigamos como a tentativa de culpar o passado esbarra no espelho do presente.",
+    "imagem": "https://i.ibb.co/4wf2CpZj/divida-ct-alvorada.webp",
+    "data": "27/11/2025",
+    "conteudo": "<b>A Narrativa da \"Herança Maldita\" Cai por Terra</b>\n\nO torcedor colorado acordou com o susto de um possível despejo da base no CT Morada dos Quero-Queros e foi dormir com a explicação oficial de que a dívida existe, mas é um \"esqueleto de 2019\", fruto da gestão anterior, que teria sido repactuada em 2021.\n\nA estratégia da atual direção parece clara: transferir a responsabilidade do problema para o passado, sugerindo que estão apenas limpando a bagunça deixada por outros. No entanto, uma análise simples do organograma do clube em 2019 revela que os CPFs responsáveis pelas contas daquela época são os mesmos que comandam o clube hoje.\n\n<b>Quem Assinava os Cheques em 2019?</b>\n\nPara entender por que a justificativa de \"gestão anterior\" não cola, basta olhar para as cadeiras de finanças daquele ano:\n\n1. Alessandro Barcellos (Atual Presidente): Em 2019, durante a gestão de Marcelo Medeiros, Barcellos não era apenas um coadjuvante. Ele ocupava o cargo de Vice-Presidente de Administração e Finanças. Ou seja, a pasta responsável por pagar o aluguel do CT estava sob sua tutela direta antes de ele assumir o Futebol no final daquele ano.\n\n2. Giovane Zanardo (Atual CEO): O homem forte da gestão atual, que hoje ocupa o cargo de CEO, era em 2019 o Diretor Executivo de Finanças (CFO). Zanardo era o técnico responsável pela operação financeira do dia a dia, cargo que ocupava desde 2017.\n\nPortanto, quando a direção atual diz que está \"resolvendo uma pendência de 2019\", ela está, na verdade, renegociando um problema que foi gerado ou administrado por ela mesma em seus cargos anteriores.\n<figure class=\"img-conteudo-wrapper\">\n    <img src=\"https://i.ibb.co/wrLyst8g/barcellos-divida-ct.webp\" \n         alt=\"Descrição alternativa da imagem\" \n         class=\"img-conteudo\">\n</figure>\n<b>A Responsabilidade é Continuada</b>\n\nA tentativa de dissociar a imagem da atual presidência dos problemas financeiros do passado recente subestima a memória do torcedor. Alessandro Barcellos e Giovane Zanardo foram peças centrais na engrenagem financeira do Internacional nos últimos anos.\n\nSe o aluguel deixou de ser pago em 2019, a decisão ou a falta de recurso passou pelas mãos de quem hoje pede paciência para resolver a situação.\n\nA \"repactuação\" feita em 2021 nada mais é do que o reconhecimento de uma dívida criada sob a supervisão dos mesmos gestores.\n\n<b>O Sinal de Alerta</b>\n\nO episódio do CT de Alvorada serve como um alerta duplo. Primeiro, financeiro: mostra que o clube vive no limite, precisando renegociar o básico para manter a operação. Segundo, político: revela que a retórica de \"nova gestão\" tem pernas curtas quando os protagonistas financeiros são os mesmos há quase uma década.\n\nNão adianta culpar a gestão anterior se os atores principais daquele filme continuam no palco principal. A dívida do CT não é uma herança de estranhos; é um passivo de uma administração continuada.",
+    "videoUrl": ""
+  },
+  {
+    "id": 1764182933824,
+    "destaque": false,
     "tipo": "texto",
     "categoria": "Notícia",
     "titulo": "A Maldição da Camisa \"9\" no Inter é Sintoma da Crise Estrutural e da Gestão Cega",
