@@ -1,7 +1,19 @@
 [
   {
-    "id": 1764438336008,
+    "id": 1764445405728,
     "destaque": true,
+    "tipo": "texto",
+    "categoria": "Notícia",
+    "titulo": "Abel Braga Inicia Operação Salvação, Trabalha \"De Graça\" e Resgata Aguirre do Inferno Astral",
+    "resumo": "O primeiro dia de Abel Braga no comando do Inter foi marcado por emoção, polêmica superada e gestão de grupo. O ídolo confirmou que não receberá salário pelos dois jogos finais, pediu desculpas por uma \"fala infeliz\" na coletiva e, no campo, teve seu primeiro grande gesto de liderança: bancou a titularidade de Braian Aguirre, o lateral que saiu chorando após falhar no vexame contra o Vasco.",
+    "imagem": "https://i.ibb.co/m5pfDRdF/abel-jogadores.webp",
+    "data": "29/11/2025",
+    "conteudo": "<b>O \"Pai\" Está na Casa (e Sem Cobrar Nada)</b>\n\nA segunda-feira (01) amanheceu diferente para o torcedor colorado. O ar de terra arrasada deixado pela goleada no Rio de Janeiro deu lugar a uma fagulha de esperança. Abel Braga já comandou seu primeiro treino no CT Parque Gigante e confirmou o que adiantamos ontem: ele aceitou a missão de salvar o Internacional sem custos.\n\nEm sua apresentação, Abel foi categórico ao afirmar que não se sentou para discutir valores. \"Vim pelo clube, vim pela torcida. Depois a gente vê isso\", disse o treinador, reforçando o laço afetivo que transcende o profissionalismo. Ele está ali por amor, atendendo ao chamado de uma instituição que clama por socorro.\n\n<b>O Deslize e o Pedido de Desculpas</b>\n\nA emoção do retorno, porém, teve um momento de ruído. Durante a entrevista coletiva, ao tentar fazer uma crítica sobre a postura e a \"virilidade\" necessária para o momento, Abel cometeu um deslize ao usar uma expressão considerada homofóbica para se referir a camisas de treino.\n\nA fala repercutiu mal, mas a grandeza do ídolo se mostrou na humildade imediata. Pouco tempo depois, Abel reconheceu o erro, explicou que foi uma colocação infeliz tentando motivar e pediu desculpas públicas, encerrando o assunto para focar no que realmente importa: o futebol e a união do grupo.\n<figure class=\"img-conteudo-wrapper\">\n    <img src=\"https://i.ibb.co/tpV8nNq1/primeiro-treino.webp\" \n         alt=\"Descrição alternativa da imagem\" \n         class=\"img-conteudo\">\n</figure>\n<b>O Gesto de Ouro: O Resgate de Aguirre</b>\nO ponto alto do primeiro contato de Abel com o elenco, no entanto, não foi um discurso inflamado, mas um gesto de humanidade.\n\nTodos lembram da cena dolorosa da última sexta-feira: o lateral-direito Braian Aguirre, após falhar no primeiro gol do Vasco, foi sacado do time ainda no primeiro tempo e desabou em choro no banco de reservas, consolado pelos companheiros, mas visivelmente destruído emocionalmente.\n\nPois a primeira grande decisão de Abel Braga foi resgatar o soldado ferido.\n\nNo treino tático realizado ontem (30), Abel chamou Aguirre para uma conversa particular, olhou no olho do jogador e o colocou no time titular. O recado foi claro para todo o grupo: \"Aqui ninguém fica para trás\". Ao bancar o jogador que estava no fundo do poço, Abel recupera não só a confiança de um atleta, mas envia uma mensagem poderosa de lealdade ao vestiário.\n\nAguirre será titular contra o São Paulo. De vilão choroso a aposta de confiança do maior técnico da nossa história.\n\n<b>O Time da Salvação</b>\n\nCom a confirmação de Aguirre e a simplificação tática que é marca registrada de Abelão (o famoso \"feijão com arroz bem feito\"), o provável Inter para a decisão de quarta-feira deve ter uma postura mais aguerrida e menos \"laboratorial\".\n\nAbel focou na conversa, no \"olho no olho\" e na recuperação anímica. O treino foi leve, sem invenções. O objetivo é tirar o peso das costas dos jogadores e fazer com que eles joguem pela camisa — e agora, também pelo \"Pai\" que voltou para salvá-los.",
+    "videoUrl": ""
+  },
+  {
+    "id": 1764438336008,
+    "destaque": false,
     "tipo": "texto",
     "categoria": "Notícia",
     "titulo": "O Pai Voltou Por Amor! Abel Braga Teria Ignorado Conselhos e Aceitado Missão \"De Graça\" para Salvar o Inter",
