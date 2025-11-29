@@ -1,5 +1,17 @@
 [
   {
+    "id": 1764438336008,
+    "destaque": true,
+    "tipo": "texto",
+    "categoria": "Notícia",
+    "titulo": "O Pai Voltou Por Amor! Abel Braga Teria Ignorado Conselhos e Aceitado Missão \"De Graça\" para Salvar o Inter",
+    "resumo": "O domingo (30) entra para a história como o dia da reviravolta. Após a demissão de Ramón e Emiliano Díaz, o Internacional confirmou o retorno de <b>Abel Braga</b>, o maior técnico de sua história. Informações de bastidores indicam que Abelão ignorou alertas de amigos para não pegar a \"bomba\" e aceitou comandar o time nos dois jogos finais <b>sem receber salário</b>, movido pelo sentimento de que o \"Inter convoca\".",
+    "imagem": "https://i.ibb.co/XfbQyrjD/abel-braga-novo-treinador.webp",
+    "data": "29/11/2025",
+    "conteudo": "<b>O Fim do Laboratório e o Grito de Socorro</b>\n\nA goleada de 5 a 1 sofrida para o Vasco foi a gota d'água. Na tarde deste domingo (30), a direção do Internacional finalmente encerrou o ciclo de Ramón e Emiliano Díaz. A demissão, tardia na visão de muitos, ocorreu após uma reunião de emergência onde ficou claro que a comissão técnica argentina não tinha mais comando, clima ou respostas para tirar o clube do atoleiro.\n<figure class=\"img-conteudo-wrapper\">\n    <img src=\"https://i.ibb.co/4ZL3JvsD/ramon-demitido.webp\" alt=\"tabela\" \n         alt=\"Descrição alternativa da imagem\" \n         class=\"img-conteudo\">\n</figure>\nMas a notícia da demissão logo foi eclipsada pela bomba que explodiu minutos depois: Abel Braga está de volta ao Beira-Rio.\n\nNão é uma contratação comum. É um chamado de emergência atendido pelo único homem capaz de mobilizar o vestiário e a arquibancada em 48 horas.\n\n<b>Bastidores de um Retorno por Amor: \"Não Quero Dinheiro\"</b>\n\nInformações que circulam nos bastidores do clube dão conta de detalhes que mostram o tamanho do caráter de Abel Braga. Segundo relatos de fontes próximas à negociação, o acerto teria sido selado em uma conversa franca e rápida, onde a questão financeira ficou em segundo plano.\n\nO que se comenta nos corredores é que Abel Braga teria se recusado a discutir salários para estes dois últimos jogos. A postura do treinador teria sido a de focar unicamente na salvação do clube. A tônica da conversa, segundo relatos, foi no sentido de: \"Não vamos falar de dinheiro agora. O foco é tirar o Inter dessa situação\". Abel deve comandar o time contra São Paulo e Bragantino movido pela gratidão e amor à instituição, deixando qualquer acerto financeiro ou contratual para depois do campeonato.\n\n<b>\"O Inter Não Chama, Convoca\": A Resposta aos Céticos</b>\n\nOutro ponto forte que emerge dos bastidores envolve a decisão pessoal de Abel. Informações dão conta de que o treinador foi fortemente aconselhado a recusar o convite. Amigos e pessoas próximas teriam alertado o ídolo sobre o risco de assumir uma \"bomba\" e a possibilidade de manchar sua história vitoriosa em caso de rebaixamento.\n\nNo entanto, ignorando a lógica da autopreservação, Abel aceitou o desafio. Conjectura-se que a resposta de Abel aos conselhos reflete uma máxima que ele sempre carregou consigo e que ecoa agora com força total: \"O Inter não chama, ele convoca.\"\n\nEssa frase, que circula forte entre os conselheiros e torcedores como a justificativa do \"sim\" de Abel, resume o espírito deste retorno. Ele não vem por um contrato; vem por uma missão.\n\n<b>O Maior de Todos no Comando</b>\n\nAbel Braga dispensa apresentações, mas seus números impõem respeito imediato. O homem que nos deu a América e o Mundo em 2006, e que quase operou um milagre no Brasileirão de 2020, retorna para sua oitava passagem.\n\nEle conhece cada corredor do Beira-Rio. Ele sabe o que é a pressão de um gigante. Diferente dos antecessores, Abel não precisa de adaptação; ele precisa apenas olhar no olho dos jogadores e transmitir a confiança que faltou durante todo o ano.\n\n<b>A Missão Final</b>\n\nA tarefa é hercúlea, mas agora tem um comandante de verdade. Faltam dois jogos. O Inter precisa de 4 pontos (uma vitória e um empate) e contar com tropeços paralelos.\n\n- <b>O Adversário:</b> São Paulo (Fora) e RB Bragantino (Casa).\n\n- <b>O Fator Abel:</b> A mobilização já começou. A torcida, que estava entregue, agora tem um motivo para acreditar.\n\nO \"Pai\" voltou. Se existe alguém capaz de operar o milagre da salvação, esse alguém é Abel Braga. O laboratório acabou. Agora é guerra, e nós temos o nosso General.",
+    "videoUrl": ""
+  },
+  {
     "id": 1764283712323,
     "destaque": false,
     "tipo": "texto",
@@ -13,7 +25,7 @@
   },
   {
     "id": 1764283081804,
-    "destaque": true,
+    "destaque": false,
     "tipo": "texto",
     "categoria": "Notícia",
     "titulo": "HUMILHAÇÃO E CRISE MÁXIMA: Inter Leva 5 a 1 do Vasco e Entra em Contagem Regressiva para a Zona de Rebaixamento",
