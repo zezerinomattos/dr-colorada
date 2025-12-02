@@ -1,7 +1,19 @@
 [
   {
-    "id": 1764445405728,
+    "id": 1764685862059,
     "destaque": true,
+    "tipo": "texto",
+    "categoria": "Notícia",
+    "titulo": "Abel Barra Borré, Monta Time com 3 Zagueiros e 6 Homens de Meio para a Guerra em Santos",
+    "resumo": "Acabou a brincadeira e a exposição desnecessária. No último treino em Porto Alegre antes da viagem para enfrentar o São Paulo (que mandará o jogo em Santos), Abel Braga chutou o balde e mudou tudo: sacou o centroavante Rafael Borré, promoveu a entrada do zagueiro Juninho e montou um inédito 3-6-1. A ordem é fechar a casinha, proteger Rochet e deixar Alan Patrick pensar o jogo com liberdade.",
+    "imagem": "https://i.ibb.co/n88756nb/Abel-braga.webp",
+    "data": "02/12/2025",
+    "conteudo": "<b>A Revolução Silenciosa no Parque Gigante</b>\n\nSe alguém esperava que Abel Braga mantivesse a estrutura deixada por Ramón Díaz, o treino da manhã desta segunda-feira (02) no CT Parque Gigante foi um choque de realidade. Em sua primeira atividade tática completa visando a decisão contra o São Paulo, Abelão mostrou que sua leitura do momento é de guerra e sobrevivência, não de espetáculo.\n\nEsqueça o time aberto e vulnerável que foi goleado no Rio. O esboço treinado por Abel indica uma equipe <b>ultra-resguardada</B>, desenhada para não sofrer gols e jogar pelo erro do adversário na Vila Belmiro.\n\n<b>A Barração de Peso e a Muralha Defensiva</b>\n\nA mudança mais drástica foi no ataque: <b>Rafael Borré</b>, a contratação mais cara e badalada, perdeu a vaga no time titular. Abel entende que o momento não pede um \"homem de área\" estático, mas sim velocidade e preenchimento de espaço.\n\nPara o lugar do colombiano, Abel não colocou outro atacante. Ele escolheu um zagueiro. Juninho entra na equipe para formar uma trinca defensiva ao lado de Vitão e Mercado. O objetivo é claro: dar segurança a Sergio Rochet e estancar a sangria defensiva dos últimos jogos.\n<figure class=\"img-conteudo-wrapper\">\n    <img src=\"https://i.ibb.co/N6MnKKFt/alan-patrick.webp\" \n         alt=\"Descrição alternativa da imagem\" \n         class=\"img-conteudo\">\n</figure>\n<b>O Esquema 3-6-1: Povoar para Sobreviver</b>\n\nO desenho tático treinado foi um 3-6-1 (que se transforma em 5-4-1 sem a bola), com um meio-campo superpovoado por seis jogadores. A ideia é criar um \"congestionamento\" no setor de criação do São Paulo, impedindo que o adversário jogue.\n\nA Amplitude (Alas): Bernabei (esquerda) e Braian Aguirre (direita) deixam de ser laterais convencionais e viram alas. Eles têm a responsabilidade total pela amplitude do campo, atacando e defendendo pelos corredores.\n\nO \"Cérebro\" Protegido: No meio desse \"bunker\", <b>Alan Patrick</b> terá uma função especial. Com tantos marcadores ao seu redor (Thiago Maia, Bruno Gomes e Alan Rodríguez), o camisa 10 ficará liberado das obrigações defensivas pesadas. Sua única função será pensar o jogo, cadenciar e achar o passe mortal.\n\nA Flecha Solitária: Lá na frente, isolado mas perigoso, estará <b>Vitinho</b>. Ele será o homem da profundidade, a válvula de escape para os contra-ataques puxados por Alan Patrick. A missão dele é correr por ele e pelo time, explorando as costas da zaga paulista.\n\n<b>A Provável Escalação da Salvação</b>\nCom essas mudanças drásticas, o time que deve entrar em campo para a \"Batalha de Santos\" é:\n\n- <b>Rochet; Vitão, Mercado e Juninho; Aguirre, Thiago Maia, Bruno Gomes, Alan Rodríguez, Bernabei; Alan Patrick; Vitinho.</b>\n\nAbel aposta que, protegendo a defesa e povoando o meio, o Inter voltará a ser competitivo. É um time desenhado não para dar show, mas para trazer o ponto (ou os três) que nos manterão vivos na Série A. O \"Pai\" fechou a porta de casa; agora, ninguém entra sem pedir licença.",
+    "videoUrl": ""
+  },
+  {
+    "id": 1764445405728,
+    "destaque": false,
     "tipo": "texto",
     "categoria": "Notícia",
     "titulo": "Abel Braga Inicia Operação Salvação, Trabalha \"De Graça\" e Resgata Aguirre do Inferno Astral",
