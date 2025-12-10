@@ -1,5 +1,17 @@
 [
   {
+    "id": 1765331731111,
+    "destaque": true,
+    "tipo": "texto",
+    "categoria": "Notícia",
+    "titulo": "Implosão no Beira-Rio: Pressão de Ex-Presidentes Derruba Departamento de Futebol e Saída de D'Alessandro Coloca \"Fator Abel\" em Risco",
+    "resumo": "A terça-feira (09) foi de terremoto no Internacional. Após uma reunião de duas horas entre o presidente Alessandro Barcellos e ex-mandatários do clube, o departamento de futebol foi desmontado. José Olavo Bisol (Vice de Futebol), André Mazzuco (Executivo) e Andrés D'Alessandro (Diretor Esportivo) não fazem mais parte do clube. A saída do ídolo argentino, em solidariedade a Mazzuco, gera um impasse sobre a permanência de Abel Braga na direção para 2026.",
+    "imagem": "https://i.ibb.co/bRJXx9NH/A-TORCIDA-ABRA-OU.webp",
+    "data": "09/12/2025",
+    "conteudo": "<b>A Influência Decisiva dos Ex-Presidentes</b>\n\nTudo começou no início da tarde de ontem (09), quando Alessandro Barcellos recebeu no Beira-Rio quatro ex-presidentes de peso: Fernando Carvalho, Giovanni Luigi, Marcelo Medeiros e Pedro Paulo Záchia. O encontro, que durou cerca de duas horas, não foi apenas uma visita de cortesia.\n\nA leitura que fica nos bastidores, pela cronologia dos fatos, é de que os históricos dirigentes tiveram uma participação ativa e decisiva nas mudanças drásticas que se seguiram. O entendimento geral é de que o diagnóstico do grupo convergiu para uma necessidade urgente: pacificar o clube e evitar o desastre em 2026 exigia uma reformulação profunda no departamento de futebol que quase nos rebaixou. A pressão do ambiente tornou a manutenção da estrutura insustentável.\n\n<b>A Queda do Trio de Ferro</b>\n\nAo final do dia, a \"limpa\" foi confirmada, mas os bastidores de cada saída revelam muito sobre o caos interno:\n\n- José Olavo Bisol (Vice de Futebol): Pediu demissão. O dirigente alegou não suportar mais a pressão externa e as ameaças que vinha sofrendo de torcedores, decidindo entregar o cargo.\n\n- André Mazzuco (Executivo): Foi demitido. Considerado o principal responsável técnico pelas janelas de transferências fracassadas e pelo planejamento errático, Mazzuco não resistiu à avaliação negativa unânime dos bastidores.\n\n- Andrés D'Alessandro (Diretor Esportivo): A saída mais dolorosa e complexa. D'Alessandro pediu para sair em solidariedade a Mazzuco. O ídolo argentino não concordou com a demissão do executivo, com quem tinha grande afinidade, e optou por encerrar seu ciclo junto com o colega.\n\n<b>Bastidor Quente: O \"Nó\" na Cabeça de Abel Braga</b>\n\nA saída de D'Alessandro cria um problema gigantesco para o planejamento de 2026. Abel Braga, o herói da salvação, já era dado como certo no cargo de Coordenador Técnico ou Diretor de Futebol para o próximo ano.\n\nPorém, a apuração do DR Colorada indica que Abel tinha um plano claro: ele queria D'Alessandro como treinador em 2026, ou ao menos como seu braço direito na gestão do vestiário. A relação entre os dois é de pai e filho, e Abel contava com a presença de D'Ale para aceitar o desafio da direção.\n\nCom D'Alessandro fora do projeto por discordar da postura de Barcellos, o \"Sim\" de Abel Braga — que parecia garantido — agora volta a ser uma incógnita. O Abel foi pego de surpresa com a demissão do executivo e a consequente saída do argentino, e fontes indicam que ele ficou desconfortável com o desmanche abrupto de pessoas em quem confiava.\n\n<b>O Que Vem Agora?</b>\n\nO Internacional amanhece hoje (10) sem comando no futebol. Não há Vice, não há Executivo, não há Diretor Esportivo e a permanência de Abel na gestão virou dúvida.\n\nAlessandro Barcellos convocou uma entrevista coletiva para sexta-feira (12), onde deverá anunciar os novos nomes. Até lá, o Beira-Rio vive o silêncio tenso de quem sabe que a próxima escolha pode ser a salvação definitiva ou o último erro de uma gestão que caminha no fio da navalha.\n\nEstamos de olho. A reformulação começou, mas o custo dela pode ter sido a saída dos nossos maiores ídolos da gestão.",
+    "videoUrl": ""
+  },
+  {
     "id": 1765215743694,
     "destaque": false,
     "tipo": "texto",
@@ -13,7 +25,7 @@
   },
   {
     "id": 1765072543941,
-    "destaque": true,
+    "destaque": false,
     "tipo": "texto",
     "categoria": "Notícia",
     "titulo": "O Milagre de Abel: Inter Bate Bragantino, Vê Rivais Tropeçarem e Renasce das Cinzas para Ficar na Série A!",
